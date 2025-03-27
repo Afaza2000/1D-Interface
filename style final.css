@@ -1,0 +1,29 @@
+/* style.css */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+
+    /* Add animation for background color fade */
+    animation: colorFade 10s infinite;
+}
+
+/* Define keyframes for the color fade effect */
+@keyframes colorFade {
+    0% { background-color: #333; }
+    25% { background-color: #ff0000; }
+    50% { background-color: #00ff00; }
+    75% { background-color: #0000ff; }
+    100% { background-color: #333; }
+}

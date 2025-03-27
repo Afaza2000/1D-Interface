@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Sensor Game</title>
+  
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Include the p5.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+  
+  <!-- Include additional JavaScript files -->
+  <script src="colorSensorController.js"></script>
+  <script src="player.js"></script>
+  <script src="controller.js"></script>
+  <script src="display.js"></script>
+  <script src="animation.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <!-- Button to connect to the Arduino color sensor -->
+  <button onclick="connectToColorSensor()">Connect to Color Sensor</button>
+  
+  <!-- Placeholder for the p5.js canvas -->
+  <div id="game-container"></div>
+</body>
+</html>
